@@ -1,0 +1,67 @@
+--- bin/c/app.txt	2019-12-15 23:10:00.895483800 +0900
++++ bin/d/app.txt	2019-12-15 23:09:55.303070100 +0900
+@@ -33,11 +33,11 @@
+ ----------FILE_HEADER----------
+ 
+ [IMAGE_FILE_HEADER]
+ 0x84       0x0   Machine:                       0x14C     
+ 0x86       0x2   NumberOfSections:              0x3       
+-0x88       0x4   TimeDateStamp:                 0x5DF63E98 [Sun Dec 15 14:09:28 2019 UTC]
++0x88       0x4   TimeDateStamp:                 0x5DF63E9B [Sun Dec 15 14:09:31 2019 UTC]
+ 0x8C       0x8   PointerToSymbolTable:          0x0       
+ 0x90       0xC   NumberOfSymbols:               0x0       
+ 0x94       0x10  SizeOfOptionalHeader:          0xE0      
+ 0x96       0x12  Characteristics:               0x22      
+ Flags: IMAGE_FILE_EXECUTABLE_IMAGE, IMAGE_FILE_LARGE_ADDRESS_AWARE
+@@ -91,15 +91,15 @@
+ 0x194      0x1C  PointerToLinenumbers:          0x0       
+ 0x198      0x20  NumberOfRelocations:           0x0       
+ 0x19A      0x22  NumberOfLinenumbers:           0x0       
+ 0x19C      0x24  Characteristics:               0x60000020
+ Flags: IMAGE_SCN_CNT_CODE, IMAGE_SCN_MEM_EXECUTE, IMAGE_SCN_MEM_READ
+-Entropy: 4.701572 (Min=0.0, Max=8.0)
+-MD5     hash: a3223e5257ebd432d56bdd1099da68fc
+-SHA-1   hash: d6b1418e9589af39623d4d35a310894594a73ec9
+-SHA-256 hash: 08dd6963cd164d38731d4062b8ae15f129d486d7ee59904f90ca043ceba9da66
+-SHA-512 hash: 02299bdc12b25402fb3dd4c992fd26803cf6f618543f35ca94f65c1da0abc2812ff23b1966958a6a8e4b54e83856e94a92132ecd097c46f8f1bfd100d271684e
++Entropy: 4.705764 (Min=0.0, Max=8.0)
++MD5     hash: 788a4dd77f6e4f035de53cd65ba05a35
++SHA-1   hash: 8996dd5a1fc5b828ffd07ba17547fba8d1112b45
++SHA-256 hash: a72ef0bffc20d21b27a018cabe052f539e1bab4550a6065d8da1a333a4996c60
++SHA-512 hash: cee99e756b8935d0eb5484414503ffe68815fb36a8a0e55145377a3f0b4fd2f510c655fd319e195201f1de4098768609e172d16ba2e715569a2a92472747073d
+ 
+ [IMAGE_SECTION_HEADER]
+ 0x1A0      0x0   Name:                          .rsrc
+ 0x1A8      0x8   Misc:                          0x5BC     
+ 0x1A8      0x8   Misc_PhysicalAddress:          0x5BC     
+@@ -334,25 +334,25 @@
+ 
+ ----------Debug information----------
+ 
+ [IMAGE_DEBUG_DIRECTORY]
+ 0x820      0x0   Characteristics:               0x0       
+-0x824      0x4   TimeDateStamp:                 0x5DF63E98 [Sun Dec 15 14:09:28 2019 UTC]
++0x824      0x4   TimeDateStamp:                 0x5DF63E9B [Sun Dec 15 14:09:31 2019 UTC]
+ 0x828      0x8   MajorVersion:                  0x0       
+ 0x82A      0xA   MinorVersion:                  0x0       
+ 0x82C      0xC   Type:                          0x2       
+ 0x830      0x10  SizeOfData:                    0x11C     
+ 0x834      0x14  AddressOfRawData:              0x263C    
+ 0x838      0x18  PointerToRawData:              0x83C     
+ Type: IMAGE_DEBUG_TYPE_CODEVIEW
+ 
+     [CV_INFO_PDB70]
+     0x83C      0x0   CvSignature:                   0x53445352
+-    0x840      0x4   Signature_Data1:               5D8A1AF2
+-    0x844      0x8   Signature_Data2:               DF65    
+-    0x846      0xA   Signature_Data3:               4EAE    
+-    0x848      0xC   Signature_Data4:               B6AA67204DBA478B
++    0x840      0x4   Signature_Data1:               F60CD387
++    0x844      0x8   Signature_Data2:               42E2    
++    0x846      0xA   Signature_Data3:               4A11    
++    0x848      0xC   Signature_Data4:               97011AA63A05D869
+     0x850      0x14  Age:                           0x1       
+     0x854      0x18  PdbFileName:                   C:\ws\github.com\masaxsuzu\pefiles\NetFramework\obj\Debug\app.pdb
+ 
+ ----------Base relocations----------
+ 

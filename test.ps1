@@ -21,3 +21,10 @@ dotnet build .\NetFramework\Build.NetFramework.csproj -o ${bin}\f /t:ReBuild /p:
 COMP ${bin}\a\$asm.exe ${bin}\b\$asm.exe /M; Exit-If(-not $?)
 COMP ${bin}\c\$asm.exe ${bin}\d\$asm.exe /M; Exit-If($?)
 COMP ${bin}\e\$asm.exe ${bin}\f\$asm.exe /M; Exit-If(-not $?)
+
+py .\parse.py "bin/a/app.exe" > .\bin\a\app.txt
+py .\parse.py "bin/b/app.exe" > .\bin\b\app.txt
+py .\parse.py "bin/c/app.exe" > .\bin\c\app.txt
+py .\parse.py "bin/d/app.exe" > .\bin\d\app.txt
+py .\parse.py "bin/e/app.exe" > .\bin\e\app.txt
+py .\parse.py "bin/f/app.exe" > .\bin\f\app.txt
